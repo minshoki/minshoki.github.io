@@ -26,6 +26,10 @@
     <script>
       var canvas = document.querySelector("#unity-canvas");
       canvas.style.touchAction = "none";
+      canvas.tabIndex = 0;
+      canvas.addEventListener("pointerdown", () => canvas.focus());
+      canvas.addEventListener("contextmenu", e => e.preventDefault());
+      canvas.addEventListener("wheel", e => e.preventDefault(), { passive: false });
 
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -52,17 +56,17 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build-064";
-      var loaderUrl = buildUrl + "/web.loader.js";
+      var buildUrl = "Build-067";
+      var loaderUrl = buildUrl + "/web-final.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/web.data",
-        frameworkUrl: buildUrl + "/web.framework.js",
-        codeUrl: buildUrl + "/web.wasm",
+        dataUrl: buildUrl + "/web-final.data",
+        frameworkUrl: buildUrl + "/web-final.framework.js",
+        codeUrl: buildUrl + "/web-final.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Minshoki",
         productName: "Today's Camp",
-        productVersion: "0.6.4",
+        productVersion: "0.6.7",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
