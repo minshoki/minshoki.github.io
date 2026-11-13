@@ -1,0 +1,10 @@
+{
+  "version": "0.7.8",
+  "sourceCommit": "8a653c9808ed8d64720120ae528c8a95ed329c5b",
+  "assets": {
+    "release-web-078.framework.js": "514e5af2de1c9cc8219e21384ddb45ad25db17d969e617b953726ca811da8230",
+    "release-web-078.data": "cbceb53fe486c212bf79b48d5e8341cb006acfdb1457846e5a5b1ed33eac0f2b",
+    "release-web-078.wasm": "13e063b7800db4bc0fe95ad6a8edac8382500672a68132a8ee517e3a0e6162dd",
+    "release-web-078.loader.js": "1e6bb6fe9c2ea4ff753a94c69dc6e1c26c2bbfe3f64ce294ad1cb7c9c885ad08"
+  }
+}

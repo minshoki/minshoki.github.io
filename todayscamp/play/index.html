@@ -3,22 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Today's Camp</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>Today’s Camp</title>
+    <link rel="shortcut icon" href="TemplateData/CampFavicon.png">
     <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
+  <style id="camp-brand-loader">body{background:#10201d}#unity-logo,#unity-webgl-logo,#unity-logo-title-footer{display:none!important}#camp-loading-brand{width:310px;text-align:center;color:#f5eacd;font:600 26px sans-serif;letter-spacing:3px;padding:24px 0}#unity-loading-bar{width:310px;left:50%;top:50%}#unity-progress-bar-empty{margin:12px auto;background:#354b40;border-radius:5px;overflow:hidden}#unity-progress-bar-full{background:#d9b571}#unity-footer{background:#10201d;color:#f5eacd}#unity-build-title{font-family:sans-serif}</style></head>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
+        <div id="camp-loading-brand">TODAY’S CAMP</div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-logo-title-footer"></div>
+        
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Today's Camp</div>
       </div>
@@ -56,17 +56,17 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build-074";
-      var loaderUrl = buildUrl + "/web-074-final.loader.js";
+      var buildUrl = "Build-078";
+      var loaderUrl = buildUrl + "/release-web-078.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/web-074-final.data",
-        frameworkUrl: buildUrl + "/web-074-final.framework.js",
-        codeUrl: buildUrl + "/web-074-final.wasm",
+        dataUrl: buildUrl + "/release-web-078.data",
+        frameworkUrl: buildUrl + "/release-web-078.framework.js",
+        codeUrl: buildUrl + "/release-web-078.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Minshoki",
         productName: "Today's Camp",
-        productVersion: "0.7.4",
+        productVersion: "0.7.8",
         showBanner: unityShowBanner,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);

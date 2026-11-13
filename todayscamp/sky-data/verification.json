@@ -1,0 +1,41 @@
+{
+  "sourceCommit": "8a653c9808ed8d64720120ae528c8a95ed329c5b",
+  "catalogMatchesCommittedBlob": true,
+  "noticeMatchesCommittedBlob": true,
+  "licenseMatchesCommittedBlob": true,
+  "zipContentsMatchLooseFiles": true,
+  "publicBasePath": "/todayscamp/sky-data/",
+  "runtimeAttributionEntry": "Settings / Credits",
+  "runtimeDataDownloadUrlPresent": false,
+  "files": {
+    "CampSkyData-CC-BY-SA-4.0.zip": {
+      "sha256": "d99e6696dd06119fb54a2e17cd630d886834acaeb41ac7a18e571cf0e6a62a98",
+      "bytes": 91785
+    },
+    "CampStarCatalog.json": {
+      "sha256": "25baf76ae7f20a5ef0295153ca8b2e2cf37e9a631cf07617527c72d027babf7c",
+      "bytes": 290041
+    },
+    "Credits.txt": {
+      "sha256": "2425507ce9c26072359afa4149ee3a924afd7c35c55ac778462a0b610f02c8a6",
+      "bytes": 1742
+    },
+    "CC-BY-SA-4.0.txt": {
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "bytes": 20138
+    },
+    "NOTICE.md": {
+      "sha256": "5f18e89ec20e6d314c6c98b7486105c79517f26a8e7ba9145323c6465221b58d",
+      "bytes": 3443
+    },
+    "sources.lock.json": {
+      "sha256": "93eeaf50a1ad6538e80ea38d664c87bae10153806d4dfd9d25e54b6a3bfc63c1",
+      "bytes": 1516
+    },
+    "index.html": {
+      "sha256": "9fb781a5c76fe7cafbe2ef61e1ed622a7a1ea19b091d2c6711a98fc439d1eac9",
+      "bytes": 3927
+    }
+  },
+  "localPageLinksExist": true
+}
